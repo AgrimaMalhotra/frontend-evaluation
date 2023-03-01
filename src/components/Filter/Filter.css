@@ -1,0 +1,7 @@
+.filter-option{
+  display: flex;
+  align-items: center;
+}
+.filter-option> p{padding: 0 20px;
+  font-size: 35px;
+}
