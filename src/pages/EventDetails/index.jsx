@@ -24,7 +24,7 @@ const EventDetails = () => {
       <div className="clickable-header" onClick={handleHeaderClick}>
         <Header />
       </div>
-      <EventCard eventData={eventData} />
+      <EventCard eventData={eventData} specificEvent={true} />
     </>
   );
 };
