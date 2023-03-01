@@ -124,7 +124,7 @@ const EventCard = ({ eventData, specificEvent }) => {
 
 EventCard.propTypes = {
   eventData: propTypes.shape({
-    id: propTypes.string.isRequired,
+    id: propTypes.number.isRequired,
     isBookmarked: propTypes.bool.isRequired,
     imgUrl: propTypes.string.isRequired,
     name: propTypes.string.isRequired,
